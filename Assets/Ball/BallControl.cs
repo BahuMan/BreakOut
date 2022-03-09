@@ -33,7 +33,9 @@ public class BallControl : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (_rigid.velocity.y < nudge && _rigid.velocity.y > -nudge)
+        if (_rigid.velocity.y < nudge
+            && _rigid.velocity.y > -nudge
+            && _rigid.velocity.magnitude > speed/2f)
         {
             Debug.Log("Ball was horizontal, let's give it a nudge");
             _rigid.velocity = new Vector2(_rigid.velocity.x, -nudge);
