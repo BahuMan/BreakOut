@@ -10,6 +10,10 @@ public class PaddleControl : MonoBehaviour
 
     [SerializeField]
     Rigidbody2D _rigid;
+    [SerializeField]
+    Transform EdgeLeft;
+    [SerializeField]
+    Transform EdgeRight;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +24,15 @@ public class PaddleControl : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        _rigid.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0f);
+        float hor = Input.GetAxis("Horizontal") * speed;
+        if (this.transform.position.x <= EdgeLeft.position.x && hor < 0f)
+        {
+            hor = 0f;
+        }
+        else if (this.transform.position.x >= EdgeRight.position.x && hor > 0f)
+        {
+            hor = 0f;
+        }
+        _rigid.velocity = new Vector2(hor, 0f);
     }
 }
