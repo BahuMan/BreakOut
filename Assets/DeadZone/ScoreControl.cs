@@ -10,6 +10,7 @@ public class ScoreControl : MonoBehaviour
     void Start()
     {
         scoreText = GetComponent<Text>();
+        OnScoreChange(Counting.Instance.Score);
     }
 
     private void OnScoreChange(int newScore)

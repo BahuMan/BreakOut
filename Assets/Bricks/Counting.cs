@@ -6,10 +6,12 @@ public class Counting
     public delegate void ScoreChangedDelegate(int newScore);
     public ScoreChangedDelegate ScoreChangeHandler;
     private int score;
+    public int Score { get => score; }
 
     public delegate void LivesChangedDelegate(int newLives);
     public LivesChangedDelegate LivesChangedHandler;
     private int lives;
+    public int Lives { get => lives; }
 
     private List<BrickControl> bricksInLevel;
 
