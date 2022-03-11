@@ -40,10 +40,16 @@ public class BallControl : MonoBehaviour
             Debug.Log("Ball was horizontal, let's give it a nudge");
             _rigid.velocity = new Vector2(_rigid.velocity.x, -nudge);
         }
-        if (_rigid.velocity.magnitude > speed)
+        if (_rigid.velocity.x < nudge
+            && _rigid.velocity.x > -nudge
+            && _rigid.velocity.magnitude > speed / 2f)
         {
-            _rigid.velocity = speed * _rigid.velocity.normalized;
+            Debug.Log("Ball was vertical, let's give it a nudge");
+            _rigid.velocity = new Vector2( (transform.position.x>0? -nudge:nudge), _rigid.velocity.y);
         }
+
+        
+        _rigid.velocity = speed * _rigid.velocity.normalized;
     }
 
     private void Update()
