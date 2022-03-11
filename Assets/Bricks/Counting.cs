@@ -1,37 +1,53 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class Counting : MonoBehaviour
+public class Counting
 {
-    [SerializeField]
-    private UnityEngine.UI.Text scoreLabel;
+    public delegate void ScoreChangedDelegate(int newScore);
+    public ScoreChangedDelegate ScoreChangeHandler;
+    private int score;
+
+    public delegate void LivesChangedDelegate(int newLives);
+    public LivesChangedDelegate LivesChangedHandler;
+    private int lives;
 
     private List<BrickControl> bricksInLevel;
-    private int score;
 
     public delegate void LevelFinishedHandler();
     public LevelFinishedHandler OnLevelFinished;
 
-    // Start is called before the first frame update
-    void Start()
+    private static Counting instance;
+
+    public static Counting Instance
     {
-        BrickControl[] bricks = FindObjectsOfType<BrickControl>();
-        Debug.Log("bricks found: " + bricks.Length);
-        bricksInLevel = new List<BrickControl>(bricks);
-        foreach (BrickControl b in bricksInLevel)
+        get
         {
-            b.BrickDestroyed += BrickDestroyedHandler;
+            if (instance == null)
+            {
+                instance = new Counting(0, 3);
+            }
+            return instance;
         }
-        score = 0;
-        scoreLabel.text = "" + score;
     }
 
-    private void BrickDestroyedHandler(BrickControl b)
+    private Counting(int resetScore, int resetLives)
+    {
+        score = resetScore;
+        lives = resetLives;
+
+        bricksInLevel = new List<BrickControl>();
+    }
+
+    public void addBrick(BrickControl b)
+    {
+        bricksInLevel.Add(b);
+    }
+
+    public void removeBrick(BrickControl b)
     {
         bricksInLevel.Remove(b);
         score += 1;
-        scoreLabel.text = "" + score;
-
-
+        ScoreChangeHandler?.Invoke(Instance.score);
     }
+
 }

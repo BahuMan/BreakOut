@@ -11,6 +11,7 @@ public class BrickControl : MonoBehaviour
     void Start()
     {
         bounceSound = FindObjectOfType<BrickSound>();
+        Counting.Instance.addBrick(this);
     }
 
     [ContextMenu("RandomColor")]
@@ -22,6 +23,7 @@ public class BrickControl : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         bounceSound.PlayBrick(Random.Range(0, 9));
+        Counting.Instance.removeBrick(this);
         BrickHit?.Invoke(this);
         BrickDestroyed?.Invoke(this);
         Destroy(this.gameObject);
