@@ -48,6 +48,8 @@ public class Counting
         bricksInLevel.Remove(b);
         score += 1;
         ScoreChangeHandler?.Invoke(Instance.score);
+
+        if (bricksInLevel.Count == 0) OnLevelFinished?.Invoke();
     }
 
 }

@@ -9,12 +9,21 @@ public class ScoreControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Counting.Instance.ScoreChangeHandler += OnScoreChange;
         scoreText = GetComponent<Text>();
     }
 
     private void OnScoreChange(int newScore)
     {
         scoreText.text = "" + newScore;
+    }
+
+    private void OnEnable()
+    {
+        Counting.Instance.ScoreChangeHandler += OnScoreChange;
+    }
+
+    private void OnDisable()
+    {
+        Counting.Instance.ScoreChangeHandler -= OnScoreChange;
     }
 }
