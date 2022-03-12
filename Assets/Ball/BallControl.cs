@@ -14,22 +14,23 @@ public class BallControl : MonoBehaviour
     [SerializeField]
     float nudge; //if vertical velocity is below "nudge", we will push the ball a bit
 
-    // Start is called before the first frame update
-    void Start()
+
+    public void Launch(Vector2 pos, Vector2 direction, float randomizeAngle, float waitForSeconds)
     {
-        StartCoroutine(resetPositie());
+        StartCoroutine(resetPositie(pos, direction, randomizeAngle, waitForSeconds));
     }
 
-    IEnumerator resetPositie()
+    private IEnumerator resetPositie(Vector2 pos, Vector2 direction, float randomizeAngle, float waitForSeconds)
     {
         //fixed start positie, random richting:
-        this.transform.position = new Vector2(0, -3);
+        this.transform.position = pos;
         _rigid.velocity = Vector2.zero;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(waitForSeconds);
 
-        this.transform.eulerAngles = Vector3.forward * Random.Range(-45f, 45f);
+        this.transform.eulerAngles = Vector3.forward * Random.Range(-randomizeAngle, randomizeAngle);
         _rigid.velocity = this.transform.up * speed;
     }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -52,11 +53,4 @@ public class BallControl : MonoBehaviour
         _rigid.velocity = speed * _rigid.velocity.normalized;
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            StartCoroutine(resetPositie());
-        }
-    }
 }

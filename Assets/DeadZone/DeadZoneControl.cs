@@ -5,10 +5,33 @@ using UnityEngine;
 public class DeadZoneControl : MonoBehaviour
 {
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    [SerializeField]
+    LaunchFirstBall restart;
+
+    AudioSource LifeLossSound;
+
+    private void Start()
+    {
+        LifeLossSound = GetComponent<AudioSource>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         BallControl ball = collision.gameObject.GetComponent<BallControl>();
         if (ball is null) return;
+        LifeLossSound.Play();
 
+        Destroy(ball.gameObject);
+        //if this was the last ball in play, subtract life and launch new, normal ball
+        BallControl[] remaining = FindObjectsOfType<BallControl>();
+        if (remaining.Length < 2)
+        {
+            Counting.Instance.changeLife(-1);
+            if (Counting.Instance.Lives > 0)
+            {
+                restart.InitialLaunch();
+            }
+        }
     }
+
 }

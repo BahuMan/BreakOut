@@ -37,7 +37,7 @@ public class Counting
         score = resetScore;
         lives = resetLives;
 
-        bricksInLevel = new List<BrickControl>();
+        bricksInLevel = new List<BrickControl>(100);
     }
 
     public void addBrick(BrickControl b)
@@ -54,4 +54,9 @@ public class Counting
         if (bricksInLevel.Count == 0) OnLevelFinished?.Invoke();
     }
 
+    public void changeLife(int delta)
+    {
+        this.lives += delta;
+        LivesChangedHandler?.Invoke(this.lives);
+    }
 }
