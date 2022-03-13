@@ -1,12 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MultiBallBrick : MonoBehaviour
 {
     [SerializeField]
     BrickControl thisBrick;
+
+    [SerializeField]
+    BonusControl bonusDrop;
 
     private void OnEnable()
     {
@@ -20,9 +20,11 @@ public class MultiBallBrick : MonoBehaviour
 
     private void brick_destroyed(BrickControl b)
     {
-        BallControl ball = FindObjectOfType<BallControl>();
-        BallControl extraBall = Instantiate<BallControl>(ball);
-        extraBall.Launch(ball.transform.position, ball.transform.forward, 90f, 0.5f);
+
+        BonusControl newBonus = Instantiate<BonusControl>(bonusDrop);
+        newBonus.transform.position = this.transform.position;
+        newBonus.gameObject.AddComponent<MultiBallBonus>();
+
     }
 
 

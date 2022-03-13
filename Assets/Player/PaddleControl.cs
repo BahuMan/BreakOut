@@ -24,7 +24,8 @@ public class PaddleControl : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float hor = Input.GetAxis("Horizontal") * speed;
+        //added the sign just so I can reverse direction by rotating paddle 180 degrees:
+        float hor = Input.GetAxis("Horizontal") * speed * Mathf.Sign(this.transform.right.x);
         if (this.transform.position.x <= EdgeLeft.position.x && hor < 0f)
         {
             hor = 0f;

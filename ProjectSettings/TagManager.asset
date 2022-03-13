@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - DeadZone
+  - Bonus
   layers:
   - Default
   - TransparentFX
@@ -12,11 +13,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Bonus
+  - Paddle
+  - Brick
+  - Edges
+  - Ball
   - 
   - 
   - 
