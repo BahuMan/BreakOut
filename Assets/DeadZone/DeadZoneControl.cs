@@ -19,13 +19,13 @@ public class DeadZoneControl : MonoBehaviour
     {
         BallControl ball = collision.gameObject.GetComponent<BallControl>();
         if (ball is null) return;
-        LifeLossSound.Play();
 
         Destroy(ball.gameObject);
         //if this was the last ball in play, subtract life and launch new, normal ball
         BallControl[] remaining = FindObjectsOfType<BallControl>();
         if (remaining.Length < 2)
         {
+            LifeLossSound.Play();
             Counting.Instance.changeLife(-1);
             if (Counting.Instance.Lives > 0)
             {

@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 5401831818422943093}
   - component: {fileID: 1824023230931919537}
   - component: {fileID: 1589263877962964850}
-  - component: {fileID: 4378777592761295430}
   - component: {fileID: 3569970363938873453}
+  - component: {fileID: 5549815363254787870}
+  - component: {fileID: 3859091988837218439}
   m_Layer: 6
-  m_Name: BonusDrop
+  m_Name: DropMultiBall
   m_TagString: Bonus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,19 +112,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.684557, y: 0.62024355}
   m_EdgeRadius: 0
---- !u!114 &4378777592761295430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7744045163505481674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5076a1f5fd3867943a3895e79cc0b51f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fallSpeed: 2
 --- !u!50 &3569970363938873453
 Rigidbody2D:
   serializedVersion: 4
@@ -145,3 +133,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5549815363254787870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7744045163505481674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658c3778702cb3d438e403b8f4d73f5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3859091988837218439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7744045163505481674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5076a1f5fd3867943a3895e79cc0b51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallSpeed: 2
+  BrickImage: {fileID: 21300000, guid: be2de8fb84ba00947b1829f46ac03517, type: 3}
+  BrickColor: {r: 0.54901963, g: 0.9254902, b: 0.80784315, a: 1}

@@ -4,22 +4,17 @@ using UnityEngine;
 
 public class MultiBallBonus: MonoBehaviour
 {
-    private void OnEnable()
-    {
-        GetComponent<BonusControl>().whatToDo += CreateMultiBall;
-    }
 
-    private void OnDisable()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        GetComponent<BonusControl>().whatToDo -= CreateMultiBall;
-    }
-
-    private IEnumerable CreateMultiBall(PaddleControl p)
-    {
-        BallControl ball = FindObjectOfType<BallControl>();
-        BallControl extraBall = Instantiate<BallControl>(ball);
-        extraBall.Launch(p.transform.position + transform.up, transform.up, 45f, 0.5f);
-        return null;
+        PaddleControl p = collision.gameObject.GetComponent<PaddleControl>();
+        if (p != null)
+        {
+            Debug.Log("Multiball overriding whatToDo");
+            BallControl ball = FindObjectOfType<BallControl>();
+            BallControl extraBall = Instantiate<BallControl>(ball);
+            extraBall.Launch(p.transform.position + transform.up, transform.up, 85f, 0.5f);
+        }
     }
 }
 
