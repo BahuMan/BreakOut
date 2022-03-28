@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 18075608}
   - component: {fileID: 18075607}
   - component: {fileID: 18075610}
-  m_Layer: 0
-  m_Name: Brick (45)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &18075608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -257,8 +258,8 @@ GameObject:
   - component: {fileID: 85999589}
   - component: {fileID: 85999588}
   - component: {fileID: 85999591}
-  m_Layer: 0
-  m_Name: Brick (13)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,6 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &85999589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -532,8 +534,8 @@ GameObject:
   - component: {fileID: 246470680}
   - component: {fileID: 246470679}
   - component: {fileID: 246470682}
-  m_Layer: 0
-  m_Name: Brick (16)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,6 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &246470680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -654,8 +657,8 @@ GameObject:
   - component: {fileID: 278789540}
   - component: {fileID: 278789539}
   - component: {fileID: 278789542}
-  m_Layer: 0
-  m_Name: Brick (32)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,6 +676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &278789540
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -776,8 +780,8 @@ GameObject:
   - component: {fileID: 297831414}
   - component: {fileID: 297831413}
   - component: {fileID: 297831416}
-  m_Layer: 0
-  m_Name: Brick (20)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,6 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &297831414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -898,8 +903,8 @@ GameObject:
   - component: {fileID: 368593364}
   - component: {fileID: 368593363}
   - component: {fileID: 368593366}
-  m_Layer: 0
-  m_Name: Brick (43)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -917,6 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &368593364
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1020,8 +1026,8 @@ GameObject:
   - component: {fileID: 384654768}
   - component: {fileID: 384654767}
   - component: {fileID: 384654770}
-  m_Layer: 0
-  m_Name: Brick (7)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1039,6 +1045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &384654768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1491,8 +1498,8 @@ GameObject:
   - component: {fileID: 591567530}
   - component: {fileID: 591567529}
   - component: {fileID: 591567532}
-  m_Layer: 0
-  m_Name: Brick (4)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1510,6 +1517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &591567530
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1613,8 +1621,8 @@ GameObject:
   - component: {fileID: 614478732}
   - component: {fileID: 614478731}
   - component: {fileID: 614478734}
-  m_Layer: 0
-  m_Name: Brick (18)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1632,6 +1640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &614478732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1735,8 +1744,8 @@ GameObject:
   - component: {fileID: 722298430}
   - component: {fileID: 722298429}
   - component: {fileID: 722298432}
-  m_Layer: 0
-  m_Name: Brick (25)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,6 +1763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &722298430
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1857,8 +1867,8 @@ GameObject:
   - component: {fileID: 734188896}
   - component: {fileID: 734188895}
   - component: {fileID: 734188898}
-  m_Layer: 0
-  m_Name: Brick (27)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1876,6 +1886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &734188896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1979,8 +1990,8 @@ GameObject:
   - component: {fileID: 743375981}
   - component: {fileID: 743375980}
   - component: {fileID: 743375983}
-  m_Layer: 0
-  m_Name: Brick (5)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1998,6 +2009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &743375981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2101,8 +2113,8 @@ GameObject:
   - component: {fileID: 779916237}
   - component: {fileID: 779916236}
   - component: {fileID: 779916239}
-  m_Layer: 0
-  m_Name: Brick (40)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2120,6 +2132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &779916237
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2308,8 +2321,8 @@ GameObject:
   - component: {fileID: 828376206}
   - component: {fileID: 828376205}
   - component: {fileID: 828376208}
-  m_Layer: 0
-  m_Name: Brick (33)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2327,6 +2340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &828376206
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2430,8 +2444,8 @@ GameObject:
   - component: {fileID: 854960566}
   - component: {fileID: 854960565}
   - component: {fileID: 854960568}
-  m_Layer: 0
-  m_Name: Brick (10)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2449,6 +2463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &854960566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2552,8 +2567,8 @@ GameObject:
   - component: {fileID: 879411989}
   - component: {fileID: 879411988}
   - component: {fileID: 879411991}
-  m_Layer: 0
-  m_Name: Brick (31)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2571,6 +2586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &879411989
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2674,8 +2690,8 @@ GameObject:
   - component: {fileID: 883434858}
   - component: {fileID: 883434857}
   - component: {fileID: 883434860}
-  m_Layer: 0
-  m_Name: Brick (6)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2693,6 +2709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &883434858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2895,8 +2912,8 @@ GameObject:
   - component: {fileID: 1042238480}
   - component: {fileID: 1042238479}
   - component: {fileID: 1042238482}
-  m_Layer: 0
-  m_Name: Brick (3)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2914,6 +2931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1042238480
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3017,8 +3035,8 @@ GameObject:
   - component: {fileID: 1067665304}
   - component: {fileID: 1067665303}
   - component: {fileID: 1067665306}
-  m_Layer: 0
-  m_Name: Brick (14)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3036,6 +3054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1067665304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3139,8 +3158,8 @@ GameObject:
   - component: {fileID: 1076104604}
   - component: {fileID: 1076104603}
   - component: {fileID: 1076104606}
-  m_Layer: 0
-  m_Name: Brick (35)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3158,6 +3177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1076104604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3261,8 +3281,8 @@ GameObject:
   - component: {fileID: 1150426768}
   - component: {fileID: 1150426767}
   - component: {fileID: 1150426770}
-  m_Layer: 0
-  m_Name: Brick (11)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3280,6 +3300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1150426768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3383,8 +3404,8 @@ GameObject:
   - component: {fileID: 1175254537}
   - component: {fileID: 1175254536}
   - component: {fileID: 1175254539}
-  m_Layer: 0
-  m_Name: Brick (24)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3402,6 +3423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1175254537
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3505,8 +3527,8 @@ GameObject:
   - component: {fileID: 1221775170}
   - component: {fileID: 1221775169}
   - component: {fileID: 1221775172}
-  m_Layer: 0
-  m_Name: Brick (28)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3524,6 +3546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1221775170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3736,8 +3759,8 @@ GameObject:
   - component: {fileID: 1268286355}
   - component: {fileID: 1268286354}
   - component: {fileID: 1268286357}
-  m_Layer: 0
-  m_Name: Brick (29)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3755,6 +3778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1268286355
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3858,8 +3882,8 @@ GameObject:
   - component: {fileID: 1306794113}
   - component: {fileID: 1306794112}
   - component: {fileID: 1306794115}
-  m_Layer: 0
-  m_Name: Brick (12)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3877,6 +3901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1306794113
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3980,8 +4005,8 @@ GameObject:
   - component: {fileID: 1324198824}
   - component: {fileID: 1324198823}
   - component: {fileID: 1324198826}
-  m_Layer: 0
-  m_Name: Brick (17)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3999,6 +4024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1324198824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4102,8 +4128,8 @@ GameObject:
   - component: {fileID: 1342291165}
   - component: {fileID: 1342291164}
   - component: {fileID: 1342291167}
-  m_Layer: 0
-  m_Name: Brick (15)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4121,6 +4147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1342291165
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4224,8 +4251,8 @@ GameObject:
   - component: {fileID: 1370688386}
   - component: {fileID: 1370688385}
   - component: {fileID: 1370688388}
-  m_Layer: 0
-  m_Name: Brick (23)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4243,6 +4270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1370688386
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4346,8 +4374,8 @@ GameObject:
   - component: {fileID: 1384034208}
   - component: {fileID: 1384034207}
   - component: {fileID: 1384034210}
-  m_Layer: 0
-  m_Name: Brick (42)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4365,6 +4393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1384034208
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4468,8 +4497,8 @@ GameObject:
   - component: {fileID: 1390500983}
   - component: {fileID: 1390500982}
   - component: {fileID: 1390500985}
-  m_Layer: 0
-  m_Name: Brick (8)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4487,6 +4516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1390500983
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4699,8 +4729,8 @@ GameObject:
   - component: {fileID: 1408701295}
   - component: {fileID: 1408701294}
   - component: {fileID: 1408701297}
-  m_Layer: 0
-  m_Name: Brick (30)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4718,6 +4748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1408701295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5138,8 +5169,8 @@ GameObject:
   - component: {fileID: 1541284768}
   - component: {fileID: 1541284767}
   - component: {fileID: 1541284770}
-  m_Layer: 0
-  m_Name: Brick (21)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5157,6 +5188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1541284768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5265,8 +5297,8 @@ GameObject:
   - component: {fileID: 1562155575}
   - component: {fileID: 1562155574}
   - component: {fileID: 1562155577}
-  m_Layer: 0
-  m_Name: Brick (41)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5284,6 +5316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1562155575
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5500,8 +5533,8 @@ GameObject:
   - component: {fileID: 1576574283}
   - component: {fileID: 1576574282}
   - component: {fileID: 1576574285}
-  m_Layer: 0
-  m_Name: Brick (46)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5519,6 +5552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1576574283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5666,8 +5700,8 @@ GameObject:
   - component: {fileID: 1638253409}
   - component: {fileID: 1638253408}
   - component: {fileID: 1638253411}
-  m_Layer: 0
-  m_Name: Brick (37)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5685,6 +5719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1638253409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5919,8 +5954,8 @@ GameObject:
   - component: {fileID: 1770719912}
   - component: {fileID: 1770719911}
   - component: {fileID: 1770719914}
-  m_Layer: 0
-  m_Name: Brick (1)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5938,6 +5973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1770719912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6041,8 +6077,8 @@ GameObject:
   - component: {fileID: 1777593625}
   - component: {fileID: 1777593624}
   - component: {fileID: 1777593627}
-  m_Layer: 0
-  m_Name: Brick (9)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6060,6 +6096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1777593625
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6163,8 +6200,8 @@ GameObject:
   - component: {fileID: 1786477339}
   - component: {fileID: 1786477338}
   - component: {fileID: 1786477341}
-  m_Layer: 0
-  m_Name: Brick (36)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6182,6 +6219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1786477339
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6285,8 +6323,8 @@ GameObject:
   - component: {fileID: 1790330195}
   - component: {fileID: 1790330194}
   - component: {fileID: 1790330197}
-  m_Layer: 0
-  m_Name: Brick (47)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6304,6 +6342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1790330195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6407,8 +6446,8 @@ GameObject:
   - component: {fileID: 1863560767}
   - component: {fileID: 1863560766}
   - component: {fileID: 1863560769}
-  m_Layer: 0
-  m_Name: Brick (44)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6426,6 +6465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1863560767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6529,8 +6569,8 @@ GameObject:
   - component: {fileID: 1865336808}
   - component: {fileID: 1865336807}
   - component: {fileID: 1865336810}
-  m_Layer: 0
-  m_Name: Brick (19)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6548,6 +6588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1865336808
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6651,8 +6692,8 @@ GameObject:
   - component: {fileID: 1924387560}
   - component: {fileID: 1924387559}
   - component: {fileID: 1924387562}
-  m_Layer: 0
-  m_Name: Brick (39)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6670,6 +6711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &1924387560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7041,8 +7083,8 @@ GameObject:
   - component: {fileID: 2022550504}
   - component: {fileID: 2022550503}
   - component: {fileID: 2022550506}
-  m_Layer: 0
-  m_Name: Brick (26)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7060,6 +7102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &2022550504
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7163,8 +7206,8 @@ GameObject:
   - component: {fileID: 2054666370}
   - component: {fileID: 2054666369}
   - component: {fileID: 2054666372}
-  m_Layer: 0
-  m_Name: Brick (34)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7182,6 +7225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &2054666370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7285,8 +7329,8 @@ GameObject:
   - component: {fileID: 2085484257}
   - component: {fileID: 2085484256}
   - component: {fileID: 2085484259}
-  m_Layer: 0
-  m_Name: Brick (2)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7304,6 +7348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &2085484257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7407,8 +7452,8 @@ GameObject:
   - component: {fileID: 2126722620}
   - component: {fileID: 2126722619}
   - component: {fileID: 2126722622}
-  m_Layer: 0
-  m_Name: Brick (22)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7426,6 +7471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &2126722620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7529,8 +7575,8 @@ GameObject:
   - component: {fileID: 2147255406}
   - component: {fileID: 2147255405}
   - component: {fileID: 2147255408}
-  m_Layer: 0
-  m_Name: Brick (38)
+  m_Layer: 8
+  m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7548,6 +7594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6ccd9beea6d824bbd2969c83b72afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DropBonus: {fileID: 0}
 --- !u!212 &2147255406
 SpriteRenderer:
   m_ObjectHideFlags: 0
