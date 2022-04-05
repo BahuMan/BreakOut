@@ -34,6 +34,9 @@ public class BallControl : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
+        if (_rigid.isKinematic) return;
+
         if (_rigid.velocity.y < nudge
             && _rigid.velocity.y > -nudge
             && _rigid.velocity.magnitude > speed/2f)
