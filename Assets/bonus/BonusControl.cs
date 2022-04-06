@@ -26,9 +26,16 @@ public class BonusControl : MonoBehaviour
         return BrickColor;
     }
 
+    /**
+     * Note to self:
+     * Since the paddle exist of multiple colliders, this bonus may get multiple
+     * OnCollisionEnter2D calls even though the bonus object is destroyed
+     * the very next frame.
+     * The custom component should take that into account.
+     * (e.g. don't blindly create an extra ball in OnCollisionEnter2D)
+     */
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Basic BonusControl destroys the Object");
         Destroy(this.gameObject);
     }
 
