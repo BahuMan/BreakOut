@@ -5,9 +5,6 @@ public class BrickControl : MonoBehaviour
 
     [SerializeField] BonusControl DropBonus;
 
-    public delegate void BrickHitHandler(BrickControl b);
-    public BrickHitHandler BrickHit;
-    public BrickHitHandler BrickDestroyed;
     private BrickSound bounceSound;
 
     private void OnValidate()
@@ -52,8 +49,6 @@ public class BrickControl : MonoBehaviour
     {
         bounceSound.PlayBrick(Random.Range(0, 9));
         Counting.Instance.removeBrick(this);
-        BrickHit?.Invoke(this);
-        BrickDestroyed?.Invoke(this);
 
         if (DropBonus != null)
         {
